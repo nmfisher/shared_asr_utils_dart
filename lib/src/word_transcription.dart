@@ -1,3 +1,5 @@
+
+@deprecated
 class WordTranscription {
   final String word;
   final double start;
@@ -8,6 +10,8 @@ class WordTranscription {
 
 class ASRResult {
   final bool isFinal;
+
+  @deprecated
   final List<WordTranscription> words;
 
   late final String _joined;
@@ -15,7 +19,9 @@ class ASRResult {
     return words.map((w) => w.word).join(sep);
   }
 
-  ASRResult(this.isFinal, this.words);
+  final String text;
+
+  ASRResult(this.isFinal, this.words, this.text);
 
   @override
   String toString() {
