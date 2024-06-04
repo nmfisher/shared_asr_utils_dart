@@ -1,7 +1,7 @@
-name: shared_asr_utils_dart
+name: shared_asr_utils
 description: A starting point for Dart libraries or applications.
 version: 0.0.1
-repository: https://github.com/nmfisher/shared_asr_utils_dart
+repository: https://github.com/nmfisher/shared_asr_utils
 
 environment:
   sdk: ^3.3.0

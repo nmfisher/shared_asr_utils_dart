@@ -14,7 +14,6 @@ class ASRResult {
   @deprecated
   final List<WordTranscription> words;
 
-  late final String _joined;
   String join({String sep = "#"}) {
     return words.map((w) => w.word).join(sep);
   }

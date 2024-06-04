@@ -45,7 +45,7 @@ class AudioBuffer {
     if (lengthInSeconds == null) {
       lengthInBytes = _data.length - start;
     } else {
-      lengthInBytes = (lengthInSeconds! * 2 * _sampleRate).toInt();
+      lengthInBytes = (lengthInSeconds * 2 * _sampleRate).toInt();
     }
     if (start + lengthInBytes > _data.length) {
       throw Exception(

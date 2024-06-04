@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:shared_asr_utils_dart/shared_asr_utils.dart';
+
+import 'package:shared_asr_utils/shared_asr_utils_dart.dart';
 
 abstract class ASRService {
   Stream<String> get partial;
