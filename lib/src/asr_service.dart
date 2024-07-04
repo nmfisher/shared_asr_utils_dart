@@ -16,6 +16,8 @@ abstract class ASRService {
 
   Future<bool> requestPermissions();
 
+  Future fetchModel();
+
   Future initialize();
 
   Future<bool> createStream(List<String>? sentences);
