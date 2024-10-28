@@ -41,10 +41,29 @@ abstract class ASRService {
   ///
   void listen();
 
+  ///
+  ///
+  ///
   void dispose();
 
+  ///
+  ///
+  ///
   Future<AudioBuffer> resample(
       Uint8List data, int oldSampleRate, int newSampleRate);
 
+  ///
+  ///
+  ///
   Future<AudioBuffer> getBuffer({int? sampleRate});
+
+  ///
+  ///
+  ///
+  Future<List<String>> listMicrophones();
+
+  ///
+  ///
+  ///
+  Future selectMicrophone(String microphone);
 }

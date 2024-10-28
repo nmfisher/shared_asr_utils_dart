@@ -1,6 +1,6 @@
 name: shared_asr_utils
 description: Speech-recognition related classes. Used by the sherpa_onnx_dart package.
-version: 0.0.1
+version: 0.0.3
 repository: https://github.com/nmfisher/shared_asr_utils
 
 environment:
